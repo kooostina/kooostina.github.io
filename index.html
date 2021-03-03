@@ -5,84 +5,119 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My resume</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
 
     <!-- Main container -->
-    <div>
-        <!-- Main content container -->
-        <div>
+    <div class="main-container">
+        
+        <!-- Main content section -->
+        <div class="main-content">
+
             <!-- About me section -->
-            <div>
-                <h2>Junior Front-End Developer</h2>
-                <h1>Olga Kostina</h1>
-                <p>From being a teacher of English to a front-end developer - this has been my goal for the last 3 months. With a high level of English, it is much easier and faster to learn to code. I have done various courses (Udemy, Coursera), watched Youtube tutorials and read all the web resources I can possibly put my hands on.</p>
+            <div class="about-me-section">
+                <h2 class="about-me-job">Junior Front-End Developer</h2>
+                <h1 class="about-me-name">Olga Kostina</h1>
+                <p class="about-me-description">From being a teacher of English to a front-end developer - this has been my goal for the last 3 months. With a high level of English, it is much easier and faster to learn to code. I have done various courses, watch Youtube tutorials and read all the web resources I can possibly put my hands on. I am eager to start building awesome applications.</p>
             </div>
+
             <!-- My projects -->
-            <div>
-                <h3>Projects</h3>
-                <ol>
-                    <li>
-                        <a href="/projects/expanding-cards/index.html" target="blank">Expanding cards</a>
-                        <span>..........</span>
-                        <span>[HTML5, CSS, Javascript]</span>
+            <div class="my-projects-section">
+                <h3 class="main-content-title">Projects</h3>
+                <ol class="my-projects-list">
+                    <li class="my-projects-item">
+                        <span class="my-projects-text">
+                            <a href="/projects/expanding-cards/index.html" target="blank" class="my-projects-link">Expanding cards</a>
+                            ..........................
+                            <span class="my-projects-bracket">[</span> HTML5, CSS, Javascript </span>]<span>
+                        </span>
                     </li>
                 </ol>
             </div>
+
             <!-- My education -->
-            <div>
-                <h3>Education</h3>
-                <h4>Udemy "50 projects in 50 days"</h4>
-                <p>Jan 2021 - present</p>
-                <ul>
+
+            <!-- Place 1 -->
+
+            <div class="my-education-place">
+                <h3 class="main-content-title">Education</h3>
+                <h4 class="education-place"><span class="place-title">Udemy</span> "50 projects in 50 days"</h4>
+                <p class="education-period">Jan 2021 - present  <span class="education-period-bar"> | </span>  online</p>
+                <ul class="education-points">
                     <li>Project based teaching to sharpen your HTML, CSS & JavaScript skills</li>
                     <li>Modern styling with flexbox, CSS animations, custom properties, etc</li>
                     <li>DOM manipulation, events, array methods, HTTP requests & more</li>
                 </ul>
-                <h4>Coursera "HTML, CSS, and Javascript for Web Developers"</h4>
-                <p>Jan 2021 - Feb 2021</p>
-                <ul>
+            </div>
+
+            <!-- Place 2 -->
+
+            <div class="my-education-place">
+                <h4 class="education-place"><span class="place-title">Coursera</span> "HTML, CSS, and Javascript for Web Developers"</h4>
+                <p class="education-period">Jan 2021 - Feb 2021  <span class="education-period-bar"> | </span>online</p>
+                <ul class="education-points">
                     <li>HTML, CSS and Javascript basics</li>
                     <li>Responsive design</li>
                     <li>Bootstrap</li>
                     <li>Building a fully functional web application that utilizes Ajax</li>
                 </ul>
             </div>
+
+            <!-- Place 3 -->
+
+            <div class="my-education-place">
+                <h4 class="education-place"><span class="place-title">H.S. Skovoroda Kharkiv National Pedagogical University</span></h4>
+                <p class="education-period">Sep 2006 - June 2011 <span class="education-period-bar"> | </span> Kharkiv</p>
+                <ul class="education-points">
+                    <li>Teacher of English and French</li>
+                </ul>
+            </div>
         </div>
-        <!-- Sidebar -->
-        <aside>
-            <img src="img/me.jpg" alt="my photo" width="200px">
+
+        <!-- Sidebar section-->
+        <aside class="sidebar-section">
+            <img src="img/me.jpg" alt="my photo">
+
             <!-- Contacts section -->
-            <div>
-                <h3>Contacts</h3>
+            <div class="contacts-section">
+                <h3 class="section-title">Contacts</h3>
                 <div>
-                    <span>C:</span>
-                    <a href="tel:+380957615194">+38095-761-51-94</a> 
+                    <span class="contacts-section-type">C:</span>
+                    <a class="contacts-section-link" href="tel:+380957615194">+38095-761-51-94</a> 
                 </div>
                 <div>
-                    <span>E:</span>
-                    <a href="mailto:o.kostina777@gmail.com">o.kostina777@gmail.com</a> 
+                    <span class="contacts-section-type">E:</span>
+                    <a class="contacts-section-link" href="mailto:o.kostina777@gmail.com">o.kostina777@gmail.com</a> 
                 </div>
             </div>
+
             <!-- Tech skills section -->
-            <div>
-                <h3>Tech skills</h3>
+            <div class="tech-skills-section">
+                <h3 class="section-title">Tech skills</h3>
                 <ul>
                     <li>HTML5</li>
                     <li>CSS3</li>
                     <li>Javascript</li>
+                    <li>Bootstrap</li>
+                    <li>GitHub</li>
                 </ul>
             </div>
-            <!-- Soft skills -->
-            <h3>Soft skills</h3>
-            <ul>
-                <li>Agile</li>
-                <li>Teamwork</li>
-                <li>Scrum</li>
-                <li>Proactive</li>
-                <li>People person</li>
-            </ul>
 
+            <!-- Soft skills section-->
+            <div class="soft-skills-section">
+                <h3 class="section-title">Soft skills</h3>
+                <ul>
+                    <li>Agile</li>
+                    <li>Teamwork</li>
+                    <li>Scrum</li>
+                    <li>Proactive</li>
+                    <li>People person</li>
+                </ul>
+            </div>
         </aside>
 
     </div>

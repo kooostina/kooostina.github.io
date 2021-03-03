@@ -1,0 +1,233 @@
+body {
+    background-color: #F5F7FA;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: #ffffff;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    
+}
+
+/* Main content section */
+
+.main-content {
+    margin: 100px 90px;
+    
+}
+
+.main-content-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+/* About me section */
+
+.about-me-section {
+    margin: 0 0 40px 0;
+}
+
+.about-me-job {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin: 0 0 20px 0;
+}
+
+.about-me-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    margin: 0 0 25px 0;
+}
+
+.about-me-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 400px;
+    text-align: left;
+    
+}
+
+/* My projects section */
+
+.my-projects-list {
+    padding: 0 0 0 17px;
+}
+
+.my-projects-section {
+    
+}
+
+.my-projects-item {
+    color: #000;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.my-projects-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 5px;
+}
+
+.my-projects-link {
+    text-decoration: none;
+    color: #595959;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+a[href*="tel:"] {
+    text-decoration: none;
+}
+
+.my-projects-bracket {
+     color: #000;
+     font-weight: bold;
+}
+
+/* My education */
+
+.place-title {
+     color: #C95B8E;
+}
+
+.education-place {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+}
+
+.education-period {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 0 0 10px 0;
+}
+
+.education-period-bar {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.education-points {
+    padding: 0 0 0 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.my-education-place {
+    margin: 0 10px 0 0;
+}
+
+/* sidebar section */
+
+.sidebar-section {
+    background-color: #301f27;
+    color: #ffffff;
+    width: 370px;
+    padding: 40px 0;
+}
+
+.contacts-section,
+.tech-skills-section,
+.soft-skills-section {
+    margin: 50px 0 0 40px;
+
+}
+
+img {
+    width: 370px;
+}
+
+.section-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+/* Contacts section */
+
+.contacts-section-type {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 8px; 
+}
+
+.contacts-section-link {
+    color: #8c8f94;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+
+ /* Tech skills section */
+
+ul {
+  list-style: none; /* Remove default bullets */
+  font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #595959; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.tech-skills-section ul li::before,
+.soft-skills-section ul li::before {
+    color: #C95B8E;
+}
+
+
+
+
+
+
+
+
