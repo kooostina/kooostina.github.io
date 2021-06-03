@@ -10,14 +10,14 @@ body {
     background-color: #ffffff;
     margin: 40px auto;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    
+
 }
 
 /* Main content section */
 
 .main-content {
     margin: 100px 90px;
-    
+
 }
 
 .main-content-title {
@@ -60,7 +60,7 @@ body {
     color: #595959;
     width: 400px;
     text-align: left;
-    
+
 }
 
 /* My projects section */
@@ -100,14 +100,14 @@ a[href*="tel:"] {
 }
 
 .my-projects-bracket {
-     color: #000;
-     font-weight: bold;
+    color: #000;
+    font-weight: bold;
 }
 
 /* My education */
 
 .place-title {
-     color: #C95B8E;
+    color: #C95B8E;
 }
 
 .education-place {
@@ -183,7 +183,7 @@ img {
     font-weight: bold;
     font-size: 14px;
     line-height: 24px;
-    margin-right: 8px; 
+    margin-right: 8px;
 }
 
 .contacts-section-link {
@@ -195,24 +195,31 @@ img {
 
 }
 
- /* Tech skills section */
+/* Tech skills section */
 
 ul {
-  list-style: none; /* Remove default bullets */
-  font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
+    list-style: none;
+    /* Remove default bullets */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
 
 }
 
 ul li::before {
-  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #595959; /* Change the color */
-  font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #595959;
+    /* Change the color */
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    /* Also needed for space (tweak if needed) */
 }
 
 .tech-skills-section ul li::before,
@@ -220,10 +227,7 @@ ul li::before {
     color: #C95B8E;
 }
 
-
-
-
-
-
-
-
+ol li a:hover {
+    cursor: pointer;
+    color: #C95B8E;
+}
