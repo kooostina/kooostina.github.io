@@ -1,2 +1,2 @@
 # kooostina.github.io
-My cool project
+My CV
